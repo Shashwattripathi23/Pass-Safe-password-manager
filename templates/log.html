@@ -1,0 +1,65 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authorize</title>
+    <link rel="stylesheet" href="{% static 'tdrive.css'%}">
+</head>
+
+<body>
+    <div class="login" id="main">
+        <div id="logbut">
+            <button class="Sbut" id="Sup">
+                <h1 class="butinf">Sign up</h1>
+            </button>
+            <button class="Sbut" id="Sin">
+                <h1 class="butinf">Log in</h1>
+            </button>
+            {% if messages%}
+            {% for message in messages %}
+            <p id="msg" class="{{ message.tags }}">
+                {{ message }}
+            </p>
+            {% endfor %}
+            {% endif %}
+
+        </div>
+        <div class="logd " id="logg">
+            <!-- <div id="le" class="box"></div>
+            <div id="lp" class="box"></div> -->
+            <form action="login" method="POST">
+                {% csrf_token %}
+                <input class="inputt" id="email" type="text" name="email" action="" placeholder="Username/Email">
+                <input class="inputt" id="passwords" type="password" name="pass" placeholder="Password">
+                <input type="submit" class="datbut" id="logbutt" name="loggg " value="LOGIN">
+            </form>
+        </div>
+
+        <script src="{% static 'Tdrive.js' %}"></script>
+
+
+        <div class="logd " id="sigg">
+
+            <form action="signup" method="POST">
+                {% csrf_token %}
+                <input class="inputt" id="emmail" type="text" name="email" placeholder="Username/Email">
+                <input class="inputt" id="pass" type="password" name="pass" placeholder="Password">
+                <input class="inputt" id="conpass" type="password" name="conpass" placeholder="Confirm Password">
+                <button class="datbut" id="cret">CREATE</button>
+            </form>
+            <!-- <div id="ce" class="box"></div>
+            <div id="cp" class="box"></div>
+            <div id="ccp" class="box"></div> -->
+        </div>
+
+    </div>
+    <div id="good"><a href="https://www.linkedin.com/in/shashwat-tripathi-145203220/"><img id="me"
+                src="{% static 'bropp.png' %}" alt=""></a>
+        <hr id="sep">
+    </div>
+</body>
+
+</html>

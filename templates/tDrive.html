@@ -1,0 +1,39 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-drive</title>
+    <link rel="stylesheet" href="{% static 'tdrive.css'%}">
+</head>
+
+<body>
+
+    <div class="fpage " id="intro">
+        <div class="fpage " id="fbut"><a id="inbut" href="{%url  'log'%}">Get Started</a></div>
+        <div class="fpage " id="inthead">
+            <h1>Welcome to PassSafe</h1>
+            <img id="logoo" src="{% static 'finlog.png' %}" alt="nopp">
+        </div>
+
+        <div class="fpage " class=" intpag" id="intpar">Yes, we know remebering all your passwords is difficult. So,
+            this is your one
+            place where you
+            keep all your passwords safe.</div>
+    </div>
+    <div id="good"><a href="https://www.linkedin.com/in/shashwat-tripathi-145203220/"><img id="me"
+                src="{% static 'bropp.png' %}" alt=""></a>
+        <hr id="sep">
+    </div>
+
+    <script src="{% static 'Tdrive.js' %}"></script>
+</body>
+
+
+
+
+
+</html>

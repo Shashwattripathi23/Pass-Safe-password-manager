@@ -1,0 +1,311 @@
+
+body{
+    
+    background-image: linear-gradient(#232931 ,#0f0f0f);
+    background-repeat: no-repeat;  
+    overflow-x: hidden;
+    min-height: 1000px;
+    overflow-y: hidden;
+}
+.change{
+    opacity: 100%;
+}
+
+#good{
+position: absolute;
+top: 750px;
+left: 1710px;
+ }
+
+
+     #me{
+        height: 24vh;
+        
+        }   
+
+#logoo{
+    position: relative;
+    top: -140px;
+    left: 100px;
+    z-index: -1;
+    width: 100px;
+    
+}
+#intro{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 800px;
+    width: 700px;
+    left: 580px;
+    top: 100px;
+    opacity: 80%;
+    border-radius: 100px;
+    box-shadow: 4px 4px 28px #000000 ;
+    transition: all 0.5s ;
+}
+#me:hover{
+    height: 26vh;
+}
+#inthead{
+    color: aliceblue;
+    position: relative;
+    top: 70px;
+    left: 200px;  
+    font-size: larger;
+    transition: all 0.5s linear;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#intpar{
+    color: aliceblue;
+    font-size: large ;
+    top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    width: 600px;
+    left: 30px;
+    padding-left: 20px;
+    transition: all 0.5s linear;
+    padding-right: 20px;
+}
+#fbut{
+    position: relative;
+    top: 700px;
+    width: 75px;
+    left: 300px;
+    border-radius: 7px;
+    background-color: #4ECCA3;
+    /* display: inline; */
+    transition: all 0.2s linear;
+    
+}
+#fbut:hover{
+    box-shadow: 4px 4px 56px #ffffff ;
+}
+#inbut{
+    font-weight: bold;
+    transition: all 0.5s linear;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 2px solid black;
+    border: none;
+    text-decoration: none;
+}
+#main{
+    height: 600px;
+    position:absolute;
+    overflow: hidden;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.2); 
+    border-radius: 100px;
+    top: 220px;
+    left: 1800px;
+    border-radius: 100px;
+    transition: 0s linear;
+    transform: scale(0);
+    box-shadow: 4px 4px 28px #000000 ;
+}
+
+#logo
+{
+    position: relative;
+    left: 200px;
+    top: -50px;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    opacity: 1;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: image-set(45px);
+    object-fit: cover;
+    background-image: url(https://cdn.vectorstock.com/i/1000x1000/65/90/business-icon-contact-person-in-flat-style-vector-31046590.webp);
+}
+.Sbut{
+    position: static;
+    height: 40px;
+    display: inline;
+    align-items: center;
+    width: 120px;
+    padding: 0%;
+    padding-bottom: 30px;
+    padding-top: 0;
+    border: none;
+    background-color: transparent;
+    border-radius: 30px;
+    transition: linear .05s ;
+    margin-bottom: 5px;
+   }
+ .butinf:hover{
+       color: #000000;
+ }
+#logbut{
+    position: relative;
+    color: #000000;
+    top: 60px;
+    background-color:#4ECCA3;
+    height: 40px;
+    width: 244px;
+    box-shadow: 4px 4px 28px #000000 ;
+    border-radius: 30px;
+    left: 125px;
+}
+
+.butinf{
+    color: #ffffff;
+    font-size: large;
+}
+#logg{
+    overflow-x: hidden;
+    /* white-space: nowrap; */
+    display: inline;
+    
+    position: absolute;
+    left: 100px;
+    height: 300px;
+    top: 140px;
+    width: 300px;
+     border: none;
+     
+     /* background-color: aquamarine; */
+    transition: linear 0.15s;
+}
+
+#sep{
+    border-color: #EEEEEE;
+    box-shadow: 8px 8px 28px #ffffff ;
+ }
+#sigg{
+    overflow-x: hidden;
+    white-space:normal;
+    
+    position: absolute;
+    left: 500px;
+    height: 330px;
+    top: 140px;
+    width: 300px;
+     border: none; 
+     /* background-color: rgb(202, 255, 127); */
+    transition: linear 0.15s;
+}
+#email{
+    position: relative;
+    background-color:#393E46 ;
+    top: 66px;
+    /* left: 30px; */
+    /* border: none; */
+}
+#passwords{
+    position: relative;
+    background-color:#393E46 ;
+    top: 106px;
+    /* left: 30px; */
+    /* border: none; */
+
+}
+#logbutt{
+    color: black;
+    position: relative;
+    width: 65px;
+    height: 20px;
+    box-shadow: 4px 4px 28px #000000 ;
+    top: 185px;
+    left: -100px;
+    background-color: #4ECCA3;
+    border: none;
+    transition: linear 0.2s;
+    border-radius: 20px;
+}
+#logbutt:hover{
+    box-shadow: 3px 3px 28px #ffffff ;
+}
+.inputt{
+    position: relative;
+    font-size: larger;
+    height: 30px;
+    width: 200px;
+    border-bottom:   none;
+    border-right: none;
+    border: none;
+    background-color:#393E46 ;
+    left: 40px;
+    border-radius: 10px 10px 10px 10px;
+    outline: none;
+    color:#eef5f3 ;
+    box-shadow: 4px 4px 28px #000000 ;
+}
+#cret:hover{
+    box-shadow: 3px 3px 28px #ffffff ;
+}
+#emmail
+{
+    top: 60px;
+}
+#pass{
+    top: 90px;
+
+}
+#conpass{
+    top: 120px;
+}
+#cret{
+    position: relative;
+    width: 65px;
+    height: 20px;
+    top: 200px;
+    left: -100px;
+    /* border-bottom: #000000; */
+    background-color: #4ECCA3;
+    border: none;
+    transition: linear 0.2s;
+    border-radius: 20px;
+    box-shadow: 4px 4px 28px #000000 ;
+}
+
+/* .datbut:hover{
+    box-shadow: 4px 4px 56px #ffffff ;
+} */
+.box{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border: 2px solid transparent;
+    border-right: none  ;
+    border-radius: 10px 0px 0px 10px;
+    background-color:rgba(236, 219, 161, 0.5) ;
+
+    
+
+}
+#ce{
+    
+    top: -38px;
+}
+#cp
+{
+    top: -08px;
+}
+#ccp{
+    top: 18px;
+}
+
+#msg{
+    position: absolute;
+    left: 35px;
+    top: 75px;
+}
+.message {
+    
+  
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.error {
+    color: #FF4136;  /* Red color */
+}
+
+.success {
+    color: #2ECC40;  /* Green color */
+
+}
