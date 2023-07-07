@@ -148,7 +148,9 @@ left: 1710px;
     border-radius: 30px;
     left: 125px;
 }
-
+.inputt:hover{
+    box-shadow: 4px 4px 28px #4ECCA3 ;
+}
 .butinf{
     color: #ffffff;
     font-size: large;
@@ -231,6 +233,7 @@ left: 1710px;
     outline: none;
     color:#eef5f3 ;
     box-shadow: 4px 4px 28px #000000 ;
+    transition: linear 0.3s;
 }
 #cret:hover{
     box-shadow: 3px 3px 28px #ffffff ;
